@@ -2,7 +2,8 @@
 
 ## Description
 
-**Person** is an amazing personal website that is used for communication towards the person in addition to looking at the works and information about the person. **Person** landing page is designed with Figma, built with HTML5, CSS3 and JavaScript using modern construction tools.
+**Person** is an amazing personal website that is used for communication with the person as well as looking at the works and information about the person. <br>
+**Person** website is designed with Figma, built with HTML5, CSS3 and JavaScript using modern construction tools.
 
 ## Home
 
