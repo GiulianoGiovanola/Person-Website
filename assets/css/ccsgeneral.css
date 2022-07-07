@@ -255,12 +255,13 @@ body.oscuro #circuloespecial{
 }
 /*HEADER*/
 header{
-	height: 12.1vh;
+	height: 11.55vh;
 	box-shadow: 1px 1px 5px #ddd;
 	z-index: 999999;
 }
 #divheader{
-	transform: translate(0px, -4px);
+	display: flex;
+	justify-content: center;
 }
 #divheader2{
 	display: none;
@@ -272,7 +273,7 @@ header{
 }
 /*INTRO*/
 #intro, #intro2{
-	padding: 0 50em 0 2em;
+	padding: 0 63em 0 2em;
 	letter-spacing: 2px;
 	text-align: justify;
 }
@@ -317,6 +318,7 @@ header{
 #botonesdelcarrusel{
 	text-align: right;
 	float: right;
+	margin-top: 0.7em;
 }
 #carruselprincipal article div h1{
 	font-size: 72px;
@@ -372,7 +374,7 @@ header{
 	border-left: none !important;
 }
 .numerosenporcentaje{
-	height: 10em;
+	height: 11em;
 	border: 2px solid #000000;
 	border-radius: 6em;
 }
@@ -534,6 +536,7 @@ header{
 }
 .publicacionessecundariassegundo{
 	margin: 0 auto 0 1em;
+	width: 38.68%;
 }
 #primeroespecialpadding{
 	padding: 1.15em 1em;
@@ -584,6 +587,9 @@ header{
 	border-bottom:2px solid hsla(0, 0%, 100%, 1);
 }
 #boton, #boton2, #botoncontactate #boton2:hover, #div4 ul li:hover, #follow ul li:hover{
+	border: 1px solid #faaf52;
+}
+#boton2:hover{
 	border: 1px solid #faaf52;
 }
 #boton, #boton2, #botoncontactate{
@@ -787,9 +793,6 @@ header{
 #botontexto div{
     text-align: inherit;
     padding-left: 0.6em;
-}
-#footer1{
-	transform: translate(0px, -2px);
 }
 #footer2{
 	padding-top: 6em;
