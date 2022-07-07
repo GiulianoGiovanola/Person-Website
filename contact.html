@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Persona - Webflow HTML website</title>
+    <link rel="shortcut icon" href="assets/imagenes/logoa_persona.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ccsgeneral.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+    <!-- Comienza el header -->
+    <header id="header">
+        <div id="divheader">
+            <!-- 1er fila -->
+            <div>
+                <a href="index.html"><img src="assets/imagenes/logo_persona.png" width="" height="" alt="logo-persona"></img></a>
+            </div>
+            <!-- 2da fila -->
+            <nav id="intro2">
+                <ul>
+                    <li><a href="index.html">Intro</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- 3ra fila -->
+            <button type="button" class="btn-btn-dark" onclick="cambiarModo()"><img src="assets/iconos/luna.png"></button>
+            <nav id="redessociales">
+                <ul>
+                    <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="behance.net"><i class="fab fa-behance"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="divheader2">
+            <!-- 1er fila -->
+            <div>
+                <a href="index.html"><img src="assets/imagenes/logo_persona.png" width="" height="" alt="logo-persona"></img></a>
+            </div>
+            <!-- 2da fila -->
+            <button type="button" class="btn-btn-dark" onclick="cambiarModo()"><img src="assets/iconos/luna.png"></button>
+            <nav id="intro3">
+                <input type="checkbox" id="menu">
+                <label for="menu"><img src="assets/iconos/menu_black.png"></label>
+                <ul>
+                    <li><a href="index.html">Intro</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Termina el header -->
+
+    <!-- Comienza el main -->
+    <main>
+    <section id="sectiongeneral">
+        <div id="div3">
+    <!-- Formulario -->
+            <article id="articlecontactme">
+                <h1>CONTACT ME</h1>
+                <form id="formcontactme">
+                    <ul>
+                        <div>
+                            <li>
+                                <input type="text" name="nombre_del_usuario" placeholder="YOUR NAME">
+                            </li>
+                            <li>
+                                <input type="email" id="emailcontact" name="email_del_usuario" placeholder="EMAIL ADDRESS" required>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <input type="text" name="tipo_de_trabajo" placeholder="TYPE OF WORK">
+                            </li>
+                            <li>
+                                <input type="text" name="presupuesto" placeholder="BUDGET">
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <textarea type="texterea" id="descripcion" name="descripcion_del_trabajo" placeholder="PROJECT DESCRIPTION..."></textarea>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="botonenviar">
+                        <button class="ultimoboton" class="buttoncontactme" type="submit" onclick="enviarEmail2()">
+                            <img id="imgcontactme" src="assets/iconos/paper-plane-icon.svg">
+                            SEND MESSAGE
+                        </button> 
+                    </li>
+                </form>   
+            </article>
+        </div>
+        <!-- Imagen con Redes Sociales -->
+        <div id="div4">
+            <ul>
+                <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li class="iconosderedes"><a href="facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="instagram.com"><img src="assets/iconos/instagram.png"></a></li>
+            </ul>
+        </div>
+    </section>
+    </main>
+    <!-- Termina el main -->
+
+    <!-- Comienza el footer -->
+    <footer id="footer2">
+        <!-- 1era fila-->
+        <section class="articulosdelfooter">
+            <div id="about">
+                <h1>ABOUT ME</h1>
+                <p>
+                    I create an amazing Webflow templates for creative people all around the world and help businesses grow.
+                </p>
+                <img src="assets/imagenes/firma.png" width="" height="" alt="firma">
+            </div>
+            <div id="navigation">
+                <h1>NAVIGATION</h1>
+                <ul>
+                    <li><a href="index.html">Intro</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="carrer.html">Carrer</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 2da fila -->
+        <section class="articulosdelfooter">
+            <div id="contacts">
+                <h1>CONTACTS</h1>
+                <ul>
+                    <li><i class="far fa-compass"></i><p class="textosdecontacts">I’m based in New York</p></li>
+                    <li><i class="far fa-envelope"></i><p id="email2">support@elasticthemes.com</p></li>
+                    <li><i class="fas fa-mobile-alt"></i><p class="textosdecontacts2">+1 213 974-3898</p></li>
+                </ul>
+                <div id="divbt01">
+                    <a class="bt01" href="contact.html">Send Message</a>
+                </div>
+            </div>
+            <div id="follow">
+                <h1>FOLLOW</h1>
+                <ul>
+                    <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>
+                    <li class="iconosderedes"><a href="facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="dribbble.com"><i class="fab fa-dribbble"></i></a></li>
+                    <li><a href="behance.net"><i class="fab fa-behance"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 3era fila -->
+        <section id="links2">
+            <p>
+                Carefully crafted by
+                <a href="https://webflow.com/templates/designers/elastic-themes">Elastic Themes</a>
+                / Powered by
+                <a href="https://webflow.com">Webflow</a>
+            </p>
+        </section>
+    </footer>
+    <!-- Termina el footer-->
+    <script type="text/jquery-3" src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://kit.fontawesome.com/31ce5d8270.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/home.js"></script>
+    
+</body>
+</html>

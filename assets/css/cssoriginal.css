@@ -1,0 +1,2531 @@
+html, body, h1, h2, h3, h4, h5, h6,
+a, img, ul, li, form, article, footer, 
+header, main, nav, section{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+img{
+	width: 100%;
+	max-width: 1900px;
+}
+
+li{
+    display: inline;
+}
+
+/*HEADER*/
+
+header{
+	height: 12vh;
+	box-shadow: 1px 1px 5px #ddd;
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	z-index: 999999;
+}
+
+#divheader{
+	display: flex;
+    align-items: center;
+}
+
+/*LOGO*/
+
+.logo{
+	width: 3.9%;
+    display: inline-block;
+    margin: 0.5em;
+}
+
+/*INTRO*/
+
+#intro{
+	display: inline-block;
+	padding-left: 2%;
+	padding-right: 48%;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: justify;
+}
+
+.clasesdelintro{
+	margin: 1em;
+	font-family: Oswald, sans-serif;
+	font-size: 12px;
+	opacity: 0.5;
+    transition: opacity 400ms ease;
+}
+
+.clasesdelintro:hover{
+	opacity: 1;
+}
+/*REDES SOCIALES*/
+
+#redessociales{
+	display: inline-block;
+}
+
+#works{
+	padding: 2em;
+}
+
+.iconosderedes{
+	padding-right: 1em;
+	opacity: 0.5;
+    transition: opacity 400ms ease;
+}
+
+.iconosderedes:hover{
+	opacity: 1;
+}
+/*BOTON DE HIRE ME*/
+
+.hireme{
+	font-family: Oswald, sans-serif;
+    color: #111;
+    font-size: 13px;
+    line-height: 24px;
+    text-decoration: none;
+	text-transform: uppercase;
+	border-left:2px solid #faaf52;
+	padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-right: 1em;
+}
+
+.hireme:hover{
+	color: #fff;
+	border: 2px solid #faaf52;
+	background-color: #faaf52;
+}
+
+/*MAIN*/
+
+body{
+	font-family: Karla, sans-serif;
+}
+
+/*CARRUSEL*/
+#carruselprincipal{
+	height: 100vh;
+	background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.6), rgba(60, 60, 60, 0.2)), url("../imagenes/lago.jpg"), linear-gradient(90deg, #40424b, #1c1d24);
+    background-position: 0px 0px, 50% 50%, 0px 0px;
+    background-size: auto, cover, auto;
+	background-repeat: repeat, no-repeat, repeat;
+}
+
+#carrusel{
+	height: 84vh;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+#hijoverdadero{
+	display: block;
+}
+
+#hijodelcarrusel{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#botonesdelcarrusel{
+	padding-top: 5em;
+	text-align: right;
+	display: flex;
+	float: right;
+}
+
+.textodelcarrusel{
+	color: #fff;
+	font-size: 72px;
+	font-family: Oswald, sans-serif;
+	font-weight: 500;
+}
+
+.textodelcarruselsecundario{
+	color: #faaf52;
+	font-family: Oswald, sans-serif;
+	font-size: 17px;
+}
+
+.parrafodelcarrusel{
+	font-family: Karla, sans-serif;
+	font-size: 17px;
+	color: #fff;
+}
+
+.completo{
+	color: #faaf52;
+	text-decoration: solid #faaf52;
+}
+/*SERVICIOS PROFESIONALES*/
+
+#serviciosprofesionales{
+	width: 100%;
+	text-align: center;
+	padding-top: 7.5em;
+	padding-bottom: 7.5em;
+}
+
+.titulomenor{
+	padding-top: 2em;
+	color: #bbb;
+	font-size: 12px;
+	font-family: Karla, sans-serif;
+	text-transform: uppercase;
+}
+
+.tituloservicio{
+	padding-bottom: 2em;
+	padding-top: 0.3em;
+	font-family: Oswald, sans-serif;
+    font-size: 36px;
+}
+
+.titulossecundariosservicio{
+	font-family: Oswald, sans-serif;
+    font-size: 28px;
+}
+
+.articulos{
+	width: 26%;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+	display: inline-block;
+	padding-bottom: 2em;
+}
+
+.divdeiconos{
+	font-size: 2em; 
+	padding-bottom: 1em; 
+}
+
+.parrafoservicios{
+	font-size: 15px;
+	color: #777;
+	width: 92%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1.3em;
+}
+/*PORCENTAJE*/
+
+#porcentaje{
+	height: 50vh;
+	background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.6)), url(../imagenes/libroyte.jpg), linear-gradient(90deg, #40424b, #1c1d24);
+    background-position: 0px 0px, 50% 50%, 0px 0px;
+    background-size: auto, cover, auto;
+    background-repeat: repeat, no-repeat, repeat;
+	background-attachment: scroll, fixed, scroll;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.circulos{
+	width: 24%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.numerosenporcentaje{
+	width: 10em;
+	height: 10em;
+	border: 2px solid #000000;
+	color: #fff;
+	border-radius: 6em;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.circulos:first-child .numerosenporcentaje{
+	border: 2px solid #faaf52;
+}
+
+.circulos:nth-child(2) .numerosenporcentaje{
+	border: 2px solid #ee4869;
+}
+
+.circulos:nth-child(3) .numerosenporcentaje{
+	border: 2px solid #6165f4;
+}
+
+.circulos:nth-child(4) .numerosenporcentaje{
+	border: 2px solid #22c8e1;
+}
+
+.letrasenporcentaje{
+	text-align: center;
+	padding-top: 1em;
+	font-family: Oswald, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+.numeros{
+	font-size: 2.5em;
+	font-family: Oswald, sans-serif;
+	font-size: 28px;
+	color: #fff;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+/*CLAVE*/
+
+#clave{
+	width: 80%;
+	display: flex;
+	margin: 10%;
+	margin-bottom: 24px;
+	line-height: 24px;
+	align-items: center;
+}
+
+.informacion{
+	width: 50%;
+	padding-right: 4em;
+}
+
+.informacion2{
+	display: none;
+}
+
+#titulodeclave{
+	font-family: Oswald, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#parrafodeclave{
+	color: #777;
+	font-size: 15px;
+}
+
+.firma{
+	width: 45%;
+	padding-left: 4em;
+	display: inline-block;
+	padding-top: 1.5em;
+}
+
+.exito{
+	width: 50%;
+	background-image: url("../imagenes/sentado.jpeg"), url("../imagenes/camara.jpeg");
+	background-position: left top, right top;
+	background-repeat: no-repeat, no-repeat;
+	padding-right: 11em;
+	height: 70vh; 
+	background-size: contain;
+}
+
+/*PORTAFOLIO*/
+
+#portafolios{
+	padding-top: 6em;
+	padding-bottom: 6em;
+	width: 75em;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2em auto;
+}
+
+#tituloysubtitulo{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#idportafolios{
+	display: flex;
+}
+
+#portafolios article{
+	width: 31%;
+	margin: 1%
+}
+
+#portafolios article figure{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+#portafolios figure figcaption{
+	background: rgba(25,25,25,0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 72%;
+	text-align: center;
+	display: none
+}
+
+#portafolios figure img{
+	width: 100%;
+	height: 18em;
+	object-fit: cover;
+	transition: transform .9s ease;
+}
+
+#portafolios figure:hover img{
+	transform: scale(1.02);
+}
+
+#portafolios figure:hover figcaption{
+	display: block;
+}
+
+.subtitulosdeportafolio{
+	text-align: center;
+}
+
+#portafolios h1{
+	padding-top: 8em;
+	color: #fff;
+	padding-left: 2em;
+}
+
+.divdeportafolio{
+	width: 25.2em;
+    height: 20em;
+    overflow: hidden;
+}
+
+#h3portafolio{
+	color: #bbb;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#h2portafolio{
+	font-family: Oswald, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+	text-transform: uppercase;
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+}
+
+.extras{
+	padding-top: 1em;
+	font-family: Oswald, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.parrafodeportafolio{
+	color: #777;
+    font-size: 13px;
+}
+
+.palabrasdentro{
+	font-family: Oswald, sans-serif;
+	font-size: 17px;
+	color: #fff;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/*CONTACTATE CONMIGO*/
+
+#imagencontactate{
+	background-image:url(../imagenes/hombregrabando.jpg);
+	background-size: cover;
+	height: 80vh;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	background-attachment: fixed;
+}
+
+#hijodecontactate{
+	width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#textodecontactate{
+	padding-bottom: 1em;
+}
+
+#h4contactate{
+	color: #bbb;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#h1contactate{
+	font-family: Oswald, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#parrafocontactate{
+	color: hsla(0, 0%, 100%, 0.7);
+	font-size: 15px;
+	line-height: 24px;
+	padding-left: 7.5em;
+    padding-right: 7.5em;
+}
+
+/*TESTIMONIOS*/
+
+#testimonios{
+	width: 100%;
+    display: flex;
+}
+
+#titulo{
+	width: 40%;
+    text-align: center;
+	margin-top: 7em;
+	padding-bottom: 7em;
+}
+
+#divsdetestimonio{
+	width: 50%;
+	margin-bottom: 5em;
+}
+
+.articulosdetestimonios{
+	display: flex;
+    padding-top: 6em;
+}
+
+.divimagenesdetestimonio{
+	padding-right: 2em;
+}
+.imagenesdetestimonio{
+	width: 5em;
+    height: 5em;
+    border-radius: 3em;
+	border: 0.2em solid #faaf52;
+	display: flex;
+}
+
+#h1testimonio{
+	font-family: Oswald, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#nombredetestimonio{
+	font-family: Oswald, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;	
+}
+
+#textodetestimonio{
+	color: #777;
+	font-size: 17px;
+    line-height: 28px;
+}
+/*CLIENTE*/
+
+#imagendelcliente{
+	background-image: url(../imagenes/cafeteria.jpg);
+	background-size: cover;
+	height: 67vh;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	background-attachment: fixed;
+}
+
+#hijodecliente{
+	width: 75%;
+    margin: 0 auto;
+	text-align: center;
+}
+
+#ulcliente{
+	display: flex;
+}
+
+#titulodecliente{
+	padding-bottom: 3em;
+	font-family: Oswald, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.divsdelcliente{
+	width: 16.5%;
+	display: inline-block;
+}
+
+.paginasdecliente{
+	padding: 1em;
+	opacity: 0.6;
+	transition: opacity 300ms ease;
+}
+
+.paginasdecliente:hover{
+	opacity: 1;
+}
+
+.imagenesdecliente{
+	width: 70%;
+}
+/*PUBLICACIONES RECIENTES*/
+
+.publicacionesrecientes{
+	width: 100%;
+}
+
+#h1publicaciones{
+	font-family: Oswald, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#titulodepublicaciones{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 9em;
+	padding-left: 6em;
+	padding-right: 6em;
+}
+
+#divgeneral{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	height: 70vh;
+	padding-bottom: 9em;
+}
+
+.publicacionessecundariasprimero{
+	position: relative;
+	margin-left: auto;
+    margin-top: 0px;
+    margin-right: 1em;
+    margin-bottom: 0px;
+    width: 37.5%;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 1em;
+}
+
+.publicacionessecundariassegundo{
+	position: relative;
+	margin-right: auto;
+    margin-top: 0px;
+    margin-left: 1em;
+    margin-bottom: 0px;
+    width: 35.5%;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 1em;
+}
+
+.imagenes{
+	display: inline-block;
+	width: 40%;
+}
+
+.noticias{
+	position: absolute;
+    top: 45px;
+    padding-left: 17em;
+    width: 49%;
+}
+
+.fotografia{
+	display: inline-block;
+	padding: 0.5em;
+	background-color: #6165f4;
+	color: #fff;
+    font-size: 9px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.diseno{
+	display: inline-block;
+	padding: 0.5em;
+	background-color: #fb406c;
+	color: #fff;
+    font-size: 9px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.titulonoticias{
+	padding-top: 1em;
+	font-family: Oswald, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.parrafo{
+	padding-bottom: 1em;
+	color: #777;
+	font-size: 13px;
+}
+
+/*BOTONES*/
+
+.bt01{
+	font-family: Oswald, sans-serif;
+    line-height: 24px;
+	text-transform: uppercase;
+	border-bottom:2px solid #ddd;
+    color: #111;
+	font-size: 16px;
+	transition: color 400ms ease, background-color 400ms ease;
+}
+
+.bt01:hover{
+	border-bottom:2px solid #111
+}
+
+.boton{
+	font-family: Oswald, sans-serif;
+	color: #fff;
+	border-bottom: none;
+	padding: 0.7em;
+    margin: 0.4em;
+	background-color: #faaf52;
+	transition: color 400ms ease, background-color 400ms ease;
+	opacity: 1;
+}
+
+.boton:hover{
+	background-color: #faaf52;
+	opacity: 1,2;
+}
+
+.boton2{
+	font-family: Oswald, sans-serif;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 0.7em;
+    margin: 0.4em;
+	background-color: transparent;
+	transition: color 400ms ease, background-color 400ms ease;
+}
+
+.boton2:hover{
+	border: none;
+	background-color: #faaf52;
+}
+#botoncontactate{
+	font-family: Oswald, sans-serif;
+	color: #fff;
+	border-bottom: none;
+	padding: 0.7em;
+	margin: 0.4em;
+	background-color: #faaf52;
+	transition: color 400ms ease, background-color 400ms ease;
+	opacity: 1;
+	color: #fff;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}	
+#botoncontactate:hover{
+	background-color: #faaf52;
+	opacity: 1.5;
+}
+
+#ultimoicono{
+	color: #fff;
+    font-size: 24px;
+    width: 0.5em;
+    padding-left: 0.2em;
+    padding-top: 0.15em;
+}
+
+.flechas{
+	background: #fff;
+	border: none;
+}
+
+.flechas2{
+	background-color: #fff;
+    border-bottom: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+}
+/*FOOTER*/
+
+#footer1{
+	display: flex;
+	align-content: center;
+	font-family: Karla, sans-serif;
+}
+
+/*LINKS*/
+
+#links{
+    background-color: #363840;
+	width: 67%;
+}
+
+#hijodellink{
+	padding-left: 12%;
+}
+
+.lidellink{
+	display: inline-block;
+    width: 24%;
+}
+
+.importantedellink{
+	padding-top: 4em;
+	padding-bottom: 1.5em;
+	color: #fff;
+	font-family: Oswald, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.segundoimportante{
+	padding-bottom: 6em;
+	transition: color 600ms ease;
+	color: hsla(0, 0%, 100%, 0.5);
+    font-size: 13px;
+}
+
+.textodellink{
+	padding-left: 12%;
+	color: hsla(0, 0%, 100%, 0.5);
+	font-size: 11px;
+}
+
+.blancodeabajo{
+	color: #fff;
+}
+
+.blancodeabajo:hover{
+	text-decoration: underline;
+}
+
+/*CORREO ELECTRONICO*/
+
+.direcciondecorreo{
+    background-color: #26272e;
+	width: 33%;
+	color: #ffffff;
+	flex-wrap: wrap;
+	align-content: center;
+	display: flex;
+}
+
+#direcciondelformulario{
+	padding-left: 25%;
+}
+
+#suscribirse{
+	width: 100%;
+}
+
+#h2email{
+	font-family: Oswald, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#h5email{
+	color: #fff;
+	opacity: 0.25;
+    line-height: 20px;
+	font-size: 11px;
+}
+
+#email{
+	width: 71%;
+	border: 2px solid gray;
+	border-style: solid;
+    border-width: 2px;
+    border-color: hsla(0, 0%, 100%, 0.3);
+    background-color: transparent;
+    transition: border 600ms ease;
+	color: #fff;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+    padding-bottom: 0.5em;
+   	padding-right: 0.5em;
+	padding-left: 0.5em;
+	font-family: Oswald, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.ultimoboton{
+	width: 15%;
+	background-color: #faaf52; 
+	border: 2px solid #faaf52;
+	height: 3em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*HEADER*/
+header{
+    height: 12vh;
+    box-shadow: 1px 1px 5px #dddddd;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9999;
+    position: fixed;
+}
+
+#divheader{
+	display: flex;
+    align-items: center;
+}
+
+/*INTRO*/
+
+#intro{
+	display: inline-block;
+	padding-left: 2%;
+	padding-right: 48%;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: justify;
+}
+
+.clasesdelintro{
+	margin: 1em;
+	font-family: Oswald, sans-serif;
+	font-size: 12px;
+	opacity: 0.5;
+    transition: opacity 400ms ease;
+}
+
+.clasesdelintro:hover{
+	opacity: 1;
+}
+/*REDES SOCIALES*/
+
+#redessociales{
+	display: inline-block;
+}
+
+#works{
+	padding: 2em;
+}
+
+.iconosderedes{
+    padding-right: 1em;
+	opacity: 0.5;
+    transition: opacity 400ms ease;
+}
+
+.iconosderedes:hover{
+	opacity: 1;
+}
+
+/*MAIN*/
+#sectiongeneral{
+    padding-bottom: 5em;
+    display: flex;
+    margin-top: 12vh;
+}
+
+#div1{
+    width: 50%;
+    padding-left: 3em;
+}
+
+#div2{
+    width: 43%;
+    background-image: url(../imagenes/chicaplanta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 30%;
+    right: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+
+.articulosdeabout{
+    text-align: inherit;
+    padding-top: 3em;
+    padding-left: 1em;
+    padding-right: 6em;
+}
+
+.articulosdeabout2{
+    text-align: inherit;
+    padding-top: 3em;
+    padding-left: 1em;
+    padding-right: 6em;
+    padding-bottom: 2em;
+}
+.titulos{
+    font-family: Oswald, sans-serif;
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.parrafos{
+    font-size: 15px;
+    line-height: 24px;
+    color: #777;
+}
+
+/*MI HISTORIA*/
+
+#h3A{
+    margin-top: 1px;
+    margin-right: 8px;
+    float: left;
+    font-family: Oswald, sans-serif;
+    color: #faaf52;
+    font-size: 46px;
+    line-height: 40px;
+    padding-top: 0.282em;
+}
+
+/*PLANTILLA*/
+
+#textodeplantilla{
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 1em;
+    font-size: 15px;
+    line-height: 24px;
+    color: #777;
+}
+/*VIDEO*/
+
+#imagendelvideo{
+    width: 25%;
+    height: 7em;
+    object-fit: cover;
+    float: left;
+}
+
+#modal{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none
+}
+
+#modal.abrir{
+    display: block;
+}
+
+#divarticulo{
+    width: 61em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 4em #000;
+}
+
+
+#modal #divarticulo iframe{
+    width: 100%;
+    height: 34em;
+    object-fit: cover
+}
+
+#modal .cerrar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    cursor: pointer
+}
+
+#youtube{
+    height: 10em;
+    width: 10em;
+    padding-right: 2em;
+    float: left;
+}
+
+#comentariosdelvideo{
+    padding-top: 1em;
+    padding-left: 11em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6.5em;
+}
+
+/*RESPONSABLE*/
+
+#lets{
+    font-family: Oswald, sans-serif;
+    color: #111;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 0.7em;
+    margin: 0.4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-left:2px solid #faaf52;    
+}
+
+#lets:hover{
+    color: #fff;
+    border: 2px solid #faaf52;
+    background-color: #faaf52;
+}
+
+/*IMAGEN Y BOTONES*/
+
+#firma{
+    width: 50%;
+}
+
+#divboton{
+    text-align: inherit;
+    padding-left: 0.6em;
+}
+
+/*FOOTER*/
+
+#footer2{
+    width: 50%;
+	align-content: center;
+	font-family: Karla, sans-serif;
+	display: block;
+}
+
+.articulosdelfooter{
+    width: 100%;
+    display: flex;
+    padding-bottom: 3em;
+}
+
+.titulosdelfooter{
+    font-family: Oswald, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #111;
+    padding-bottom: 1em;
+}
+
+.textosdelfooter{
+    font-size: 13px;
+    line-height: 20px;
+    color: #777;
+}
+
+.lidelfooter{
+    color: #777;
+    font-size: 13px;
+    line-height: 20px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.lidelfooter:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.lidecontacts{
+    display: flex;
+    align-items: center;
+}
+
+/*ABOUT*/
+
+#about{
+    width: 60%;
+    padding-left: 6em;
+    padding-right: 5em;
+}
+
+/*NAVIGATION*/
+
+#navigation{
+    width: 40%;
+    padding-right: 4em;
+}
+
+#ulnavigation{
+    width: 30%;
+}
+
+/*CONTACTS*/
+
+#contacts{
+    width: 60%;
+    padding-left: 6em;
+    padding-right: 5em;
+}
+
+.textosdecontacts{
+    margin: 0;
+    padding-left: 1em;
+    font-size: 13px;
+    line-height: 20px;
+    color: #777;
+}
+
+.textosdecontacts2{
+    margin: 0;
+    padding-left: 1em;
+    font-size: 13px;
+    line-height: 20px;
+    color: #777;
+}
+
+.lidecontacts i{
+    width: 10%;
+    text-align: center;
+}
+
+#email2{
+    color: #111;
+    font-size: 13px;
+    line-height: 20px;
+    opacity: 0.6;
+    text-decoration: none;
+    margin: 0;
+    padding-left: 1em;
+}
+
+#email:hover{
+    color: #111;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+/*FOLLOW*/
+
+#follow{
+    width: 40%;
+    padding-right: 4em;
+}
+
+.iconosderedes2{
+    padding-left: 0.65em;
+    padding-right: 0.65em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    opacity: 0.6;
+    transition: opacity 400ms ease;
+	border: 1px solid #777;
+}
+
+.iconosderedes2:hover{
+    background-color: #faaf52;
+    border: 1px solid #faaf52;
+	opacity: 1;
+}
+
+.iconosderedes3{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    opacity: 0.6;
+    transition: opacity 400ms ease;
+    border: 1px solid #777;
+}
+
+.iconosderedes3:hover{
+    background-color: #faaf52;
+    border: 1px solid #faaf52;
+    opacity: 1;
+}
+/*LINKS*/
+
+#links2{
+    background-color: #fff;
+}
+
+.textodellink2{
+	padding-left: 14%;
+    color: #7c8499;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.blancodeabajo2{
+	color: #111;
+    text-decoration: none;
+}
+
+.blancodeabajo2:hover{
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+@media(max-width: 991px )and (min-width: 481px){
+
+	body{
+		font-family: Karla, sans-serif;
+		font-size: 25px;
+	}
+	
+		img{
+			width: 100%;
+			height: auto;
+		}
+	
+		header{
+			height: 16vh;
+			box-shadow: 1px 1px 5px #dddddd;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			background: #fff;
+			z-index: 9999;
+			position: fixed;
+		}
+		
+		#divheader{
+			display: flex;
+			align-items: baseline;
+			flex-direction: column;
+		}
+	
+		.logo{
+			width: 11.9%;
+			margin: inherit;
+			padding-bottom: 1em;
+			padding-top: 0.5em;
+			padding-left: 0.45em;
+		}
+		
+		#intro{
+			display: inline-block;
+			font-size: 12px;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		
+		.ulintro{
+			display: flex;
+			width: 100%;
+		}
+	
+		.clasesdelintro{
+			font-family: Oswald, sans-serif;
+			font-size: 18px;
+		}
+	
+		#redessociales{
+			display: none;
+		}
+	
+		.hireme{
+			display: none;
+		}
+
+	/*-------------------------------------------------------------------------*/
+
+	#carruselprincipal{
+		width: 100%;
+	}
+
+	#carrusel{
+		padding-top: 2em;
+	}
+
+	#hijodelcarrusel{
+		width: 77%;
+	}
+
+	.parrafodelcarrusel{
+		padding-bottom: 1em;
+		font-size: 19px;
+	}
+
+	#botonesdelcarrusel{
+		padding-top: 2em;
+	}
+
+	.flechas{
+		padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+	}
+
+	#iconosdecarrusel{
+		font-size: 4em !important;
+	}
+
+	#iconosdecarrusel2{
+		font-size: 4em !important;
+	}
+
+	.articulos{
+		width: 100%;
+		padding: 0;
+		padding-bottom: 2em;
+	}
+
+	.divdeiconos{
+		width: 100%;
+	}
+
+	.textodelcarruselsecundario{
+		font-size: 24px;
+	}
+
+	.titulomenor{
+		font-size: 15px
+	}
+
+	.parrafoservicios{
+		font-size: 20px;
+		padding: 0;
+	}
+
+	.titulossecundariosservicio{
+		font-size: 32px;
+	}
+
+	#porcentaje{
+		height: 100%;
+		width: 100%;
+	}
+	.circulos{
+		width: 100%;
+		padding-top: 0.5em;
+    	padding-bottom: 0.5em;
+	}
+
+	.numerosenporcentaje{
+		font-size: 1.5em;
+	}
+
+	.numeros{
+		font-size: 2em;
+	}
+
+	.letrasenporcentaje{
+		font-size: 1.7em;
+	}
+
+	.circulos:first-child .numerosenporcentaje {
+		border: 4px solid #faaf52;
+		font-size: 1.3em;
+	}
+
+	.circulos:nth-child(2) .numerosenporcentaje {
+		border: 4px solid #ee4869;
+		font-size: 1.3em;
+	}
+
+	.circulos:nth-child(3) .numerosenporcentaje {
+		border: 4px solid #6165f4;
+		font-size: 1.3em;
+	}
+
+	.circulos:nth-child(4) .numerosenporcentaje {
+		border: 4px solid #22c8e1;
+		font-size: 1.3em;
+	}
+
+	.firma{
+		width: 50%;
+		padding-left: 7em;
+	}
+
+	#clave{
+		flex-wrap: wrap;
+		padding-top: 4em;
+	}
+
+	.informacion{
+		display: none;
+	}
+
+	.exito{
+		width: 100%;
+		height: 72vw;
+		padding-bottom: 1em;
+	}
+
+	.informacion2{
+		display: initial;
+		width: 100%;
+	}
+
+	#titulodeclave{
+		font-size: 40px;
+		padding-top: 1em;
+	}
+
+	#parrafodeclave{
+		font-size: 22px;
+		line-height: 26px;
+		width: 95%;
+	}
+
+	#h3portafolio{
+		font-size: 22px;
+	}
+
+	#h2portafolio{
+		font-size: 46px;
+		padding-bottom: 1em;
+	}
+
+	#portafolios{
+		width: 100%;
+	}
+
+	#idportafolios{
+		display: block;
+	}
+
+	#portafolios article{
+		width: 100%;
+		margin: 0;
+	}
+
+	.divdeportafolio{
+		width: 100%;
+	}
+
+	.extras{
+		font-size: 32px;
+	}
+
+	.parrafodeportafolio{
+		font-size: 22px;
+	}
+
+	#imagencontactate{
+		background-position-x: -19em;
+	}
+
+	#h4contactate{
+		font-size: 22px;
+	}
+
+	#h1contactate{
+		font-size: 50px;
+	}
+
+	#parrafocontactate{
+		font-size: 18px;
+		padding: 0;
+	}
+
+	#botoncontactate{
+		font-size: 22px;
+	}
+
+	#testimonios{
+		display: block;
+	}
+
+	#titulo{
+		padding: 1em;
+		margin: 0 auto;
+		margin-top: 7em;
+	}
+
+	#h1testimonio{
+		font-size: 50px;
+		padding-bottom: 1.5em !important;
+	}
+
+	.articulosdetestimonios{
+		padding-top: 0;
+		text-align: center;
+		display: block;
+	}
+
+	#divsdetestimonio{
+		width: 100%;
+	}
+
+	.divimagenesdetestimonio{
+		padding: 0;
+		padding-bottom: 1em !important;
+		width: 100%;
+	}
+
+	.imagenesdetestimonio{
+		margin: 0 auto;
+	}
+
+	#nombredetestimonio{
+		font-size: 28px;
+	}
+
+	#textodetestimonio{
+		font-size: 22px;
+	}
+
+	#titulodecliente{
+		font-size: 50px;
+	}
+
+	#ulcliente{
+		display: block;
+	}
+
+	.imagenesdecliente{
+		width: 24%;
+    	padding-bottom: 1em;
+	}
+
+	.bt01{
+		font-size: 20px;
+	}
+
+	#titulodepublicaciones{
+		width: 100%;
+		padding-top: 5em;
+		padding-bottom: 5em;
+		padding-left: 0em;
+		padding-right: 0em;
+	}
+	
+	#divgeneral{
+		width: 80%;
+		display: block;
+	}
+
+	.publicacionessecundariasprimero{
+		width: 100%;
+		margin-left: 2em;
+		margin-right: 2em;
+		margin-bottom: 1.5em;
+	}
+
+	.publicacionessecundariassegundo{
+		width: 100%;
+		margin-left: 2em;
+		margin-right: 2em;
+		margin-bottom: 1.5em;
+	}
+
+	.noticias{
+		padding-left: 12em;
+	}
+
+	.titulonoticias{
+		font-size: 26px;
+	}
+
+	.parrafo{
+		font-size: 16px;
+	}
+
+	.fotografia{
+		font-size: 15px;
+	}
+
+	.diseno{
+		font-size: 15px;
+	}
+	#footer1{
+		flex-wrap: wrap-reverse;
+	}
+
+	#links{
+		width: 100%;
+	}
+
+	.direcciondecorreo{
+		width: 100%;
+		padding-top: 2em;
+    	padding-bottom: 2em;
+	}
+
+	#direcciondelformulario{
+		padding-left: 18%;
+		width: 100%;
+	}
+
+	#suscribirse{
+		width: 100%;
+	}
+
+	#email{
+		width: 35%;
+		font-size: 20px
+	}
+
+	.textodellink{
+		padding-left: 6em;
+		font-size: 15px;
+	}
+
+	.importantedellink{
+		font-size: 20px;
+	}
+
+	.segundoimportante{
+		font-size: 15px;
+	}
+
+	.lidecontacts{
+		padding-bottom: 0.5em;
+	}
+	
+	.ultimoboton{
+		width: 5.5%;
+		height: 4em;
+		padding-right: 3em;
+	}
+
+	#ultimoicono{
+		font-size: 24px;
+		width: 1.5em;
+		padding-top: 0.5em;
+	}
+	/*-------------------------------------------------------------------------*/
+
+	#sectiongeneral{
+		padding-bottom: 5em;
+    	align-items: center;
+    	display: flex;
+    	margin-top: 12vh;
+    	flex-direction: column-reverse;
+	}
+
+	#div2{
+		width: 100%;
+		position: inherit;
+		height: 90vh;
+	}
+	
+	#div1{
+		position: relative;
+		width: 88%;
+		text-align: justify;
+		padding: 0;
+		margin: 0;
+	}
+
+	.articulosdeabout{
+	text-align: inherit;
+    padding-top: 3em;
+	padding-left: 0;
+	padding-right: 0;
+	} 
+
+	#imagendelvideo{
+		width: 8em;
+		height: 6em;
+	}
+
+	#comentariosdelvideo{
+		padding-top: 1.4em;
+		padding-left: 9em;
+		border-bottom: 2px solid #ddd;
+		padding-bottom: 6.5em;
+		text-align: left;
+	}
+
+	#divarticulo{
+		width: 27em;
+    	top: 56%;
+		left: 49.5%;
+	}
+
+	#youtube{
+		height: 16em !important;
+	}
+
+	.cerrar{
+		width: 100%;
+		top: 12em !important;
+		right: -29em !important;
+		font-size: 1em !important;
+	}
+
+	#h1devideo{
+		font-size: 15px;
+    	line-height: 20px;
+	}
+
+	#h2devideo{
+    	color: #777;
+    	font-size: 13px;
+    	line-height: 20px;
+	}
+
+	#h3devideo{
+		font-size: 13px;
+    	line-height: 20px;
+    	font-weight: 700;
+	}
+
+	.titulos{
+		font-size: 36px;
+		text-align: left;
+	}
+
+	#divboton{
+		text-align: center;
+	}
+
+	.articulosdeabout2{
+		text-align: inherit;
+    	padding-top: 3em;
+    	padding-left: 0;
+    	padding-right: 0;
+    	padding-bottom: 2em;
+	}
+
+	#footer2{
+		margin: 0;
+		padding-left: 1em;
+		width: 96%;
+	}
+
+	#about{
+		text-align: inherit;
+    	padding: 0;
+    	width: 60%;
+    	padding-left: 1em;
+	}
+
+	#navigation{
+		width: 40%;
+    	padding-right: 8em;
+    	padding-left: 3em;
+	}
+
+	#firma{
+		width: 55%;
+		padding-bottom: 2em;
+	}
+
+	#contacts{
+		width: 60%;
+		padding-left: 1em;
+		padding-right: 0;
+		padding-bottom: 2em;
+	}
+
+	#follow{
+		width: 48%;
+		padding-right: 4em;
+	}
+
+	#ulcontacts{
+		font-size: 20px;
+	}
+
+	.iconosderedes2{
+		padding-left: 0.45em;
+    	padding-right: 0.45em;
+    	padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		font-size: 20px;
+	}
+
+	.iconosderedes3{
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		padding-left: 0.6em;
+		padding-right: 0.6em;
+		font-size: 20px;
+	}
+
+	.textodellink2{
+		padding-left: 1.5em;
+	}
+
+	.lidecontacts{
+		padding-bottom: 0.5em;
+	}
+}
+/*---------------------------------------------------------------------*/
+
+@media(max-width: 480px){
+
+	body{
+		font-family: Karla, sans-serif;
+		font-size: 25px;
+	}
+	
+		img{
+			width: 100%;
+			height: auto;
+		}
+	
+		header{
+			height: 16vh;
+			box-shadow: 1px 1px 5px #dddddd;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			background: #fff;
+			z-index: 9999;
+			position: fixed;
+		}
+		
+		#divheader{
+			display: flex;
+			align-items: baseline;
+			flex-direction: column;
+		}
+	
+		.logo{
+			width: 11.9%;
+			margin: inherit;
+			padding-bottom: 1em;
+			padding-top: 0.5em;
+			padding-left: 0.45em;
+		}
+		
+		#intro{
+			display: inline-block;
+			font-size: 12px;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		
+		.ulintro{
+			display: flex;
+			width: 100%;
+		}
+	
+		.clasesdelintro{
+			font-family: Oswald, sans-serif;
+			font-size: 12px;
+		}
+	
+		#redessociales{
+			display: none;
+		}
+	
+		.hireme{
+			display: none;
+		}
+
+	/*------------------------------------------------------------------------------------------------------*/
+
+	#carruselprincipal{
+		width: 100%;
+		height: 100vh;
+	}
+
+	#carrusel{
+		padding-top: 2em;
+	}
+
+	#hijodelcarrusel{
+		width: 85%;
+	}
+
+	.textodelcarrusel{
+		font-size: 56px;
+	}
+
+	.parrafodelcarrusel{
+		padding-bottom: 1em;
+		font-size: 12.5px;
+	}
+
+	.boton{
+		font-size: 13px;
+	}
+
+	.boton2{
+		font-size: 13px;
+	}
+
+	#botonesdelcarrusel{
+		padding-top: 1.05em;
+	}
+
+	.flechas{
+		padding-left: 1em;
+    	padding-right: 1em;
+	}
+
+	#iconosdecarrusel{
+		font-size: 2em !important;
+	}
+
+	#iconosdecarrusel2{
+		font-size: 2em !important;
+	}
+
+	.tituloservicio{
+		font-size: 30px;
+	}
+
+	.articulos{
+		width: 100%;
+		padding: 0;
+		padding-bottom: 2em;
+	}
+
+	.divdeiconos{
+		width: 100%;
+		font-size: 1.5em;
+	}
+
+	.textodelcarruselsecundario{
+		font-size: 18px;
+	}
+
+	.parrafoservicios{
+		font-size: 15px;
+		padding: 0;
+	}
+
+	.titulossecundariosservicio{
+		font-size: 24px;
+	}
+
+	#porcentaje{
+		height: 100%;
+		width: 100%;
+	}
+	.circulos{
+		width: 100%;
+		padding-top: 0.5em;
+    	padding-bottom: 0.5em;
+	}
+
+	.numerosenporcentaje{
+		font-size: 1.5em;
+	}
+
+	.numeros{
+		font-size: 1.5em;
+	}
+
+	.letrasenporcentaje{
+		font-size: 1em;
+	}
+
+	.circulos:first-child .numerosenporcentaje {
+		border: 2px solid #faaf52;
+    font-size: 0.9em;
+	}
+
+	.circulos:nth-child(2) .numerosenporcentaje {
+		border: 2px solid #ee4869;
+		font-size: 0.9em;
+	}
+
+	.circulos:nth-child(3) .numerosenporcentaje {
+		border: 2px solid #6165f4;
+		font-size: 0.9em;
+	}
+
+	.circulos:nth-child(4) .numerosenporcentaje {
+		border: 2px solid #22c8e1;
+		font-size: 0.9em;
+	}
+
+	.firma{
+		width: 70%;
+		padding-left: 2em;
+	}
+
+	#clave{
+		flex-wrap: wrap;
+		padding-top: 4em;
+	}
+
+	.informacion{
+		display: none;
+	}
+
+	.exito{
+		width: 100%;
+		height: 68vw;
+		padding-bottom: 1em;
+	}
+
+	.informacion2{
+		display: initial;
+		width: 100%;
+	}
+
+	#titulodeclave{
+		font-size: 32px;
+		text-align: center;
+		padding-top: 1em;
+	}
+
+	#parrafodeclave{
+		font-size: 15px;
+		text-align: center;
+		line-height: 26px;
+		width: 95%;
+	}
+
+	#h3portafolio{
+		font-size: 16px;
+	}
+
+	#h2portafolio{
+		font-size: 32px;
+		padding-bottom: 1em;
+	}
+
+	#portafolios figure img {
+		width: 100%;
+		height: 12em;
+	}
+
+	#portafolios{
+		width: 100%;
+	}
+
+	#idportafolios{
+		display: block;
+	}
+
+	#portafolios article{
+		width: 100%;
+		margin: 0;
+	}
+
+	.divdeportafolio{
+		width: 100%;
+		height: 13em;
+	}
+
+	.extras{
+		font-size: 22px;
+	}
+
+	.parrafodeportafolio{
+		font-size: 16px;
+    	padding-bottom: 2em
+	}
+
+	#imagencontactate{
+		background-position-x: -11em;
+	}
+
+	#h4contactate{
+		font-size: 16px;
+	}
+
+	#h1contactate{
+		font-size: 36px;
+	}
+
+	#parrafocontactate{
+		font-size: 14px;
+		padding: 0;
+	}
+
+	#botoncontactate{
+		font-size: 16px;
+	}
+
+	#titulo{
+		padding: 1em;
+		margin: 0 auto;
+		margin-top: 7em;
+	}
+
+	#h1testimonio{
+		font-size: 29px;
+		padding-bottom: 1.5em !important;
+	}
+
+	.articulosdetestimonios{
+		padding-top: 0;
+		text-align: center;
+	}
+
+	#divsdetestimonio{
+		width: 100%;
+	}
+
+	.divimagenesdetestimonio{
+		padding: 0;
+		padding-bottom: 1em !important;
+		width: 100%;
+	}
+
+	.imagenesdetestimonio{
+		margin: 0 auto;
+	}
+
+	#nombredetestimonio{
+		font-size: 22px;
+	}
+
+	#textodetestimonio{
+		font-size: 15px;
+	}
+
+	#imagendelcliente{
+		height: 80vh;
+	}
+
+	#titulodecliente{
+		font-size: 36px;
+		padding-bottom: 2em;
+	}
+
+	#ulcliente, #divgeneral, #testimonios, .articulosdetestimonios{
+		display: block;
+	}
+
+	#imagendelcliente a{
+		width: 100%;
+	}
+
+	.imagenesdecliente{
+		width: 34%;
+    	padding-bottom: 1em;
+	}
+
+	.bt01{
+		font-size: 17px;
+	}
+
+	#titulodepublicaciones{
+		width: 100%;
+		padding-top: 5em;
+		padding-bottom: 2em;
+		padding-left: 0em;
+		padding-right: 0em;
+	}
+	
+	#divgeneral{
+		width: 80%;
+	}
+
+	.publicacionessecundariasprimero, .publicacionessecundariassegundo{
+		width: 100%;
+		margin-left: 0.4em;
+		margin-right: 0;
+		margin-bottom: 1.5em;
+		padding-bottom: 13em;
+    	padding-top: 1em;
+		padding-left: 1em;
+	}
+
+	.articuloreciente, .imagenes{
+		width: 100%;
+	}
+
+	.noticias{
+		padding-left: 0;
+		padding-top: 18em;
+	}
+
+	.titulonoticias{
+		font-size: 22px;
+	}
+
+	.parrafo{
+		font-size: 13px;
+	}
+
+	.fotografia, .diseno{
+		font-size: 10px;
+	}
+
+	#footer1{
+		flex-wrap: wrap-reverse;
+		padding-top: 40em;
+	}
+
+	#links{
+		width: 100%;
+	}
+
+	.direcciondecorreo{
+		width: 100%;
+		padding-top: 2em;
+    	padding-bottom: 2em;
+	}
+
+	#direcciondelformulario{
+		padding-left: 18%;
+		width: 100%;
+	}
+
+	#suscribirse{
+		width: 100%;
+	}
+
+	#email{
+		width: 55%;
+    	font-size: 13px;
+	}
+
+	#h2email{
+		font-size: 18px;
+	}
+
+	#h5email{
+		font-size: 10px;
+	}
+
+	.textodellink{
+		padding-left: 4em;
+		font-size: 10px;
+	}
+
+	.importantedellink{
+		font-size: 15px;
+	}
+
+	.segundoimportante{
+		font-size: 11px;
+		padding-bottom: 0;
+	}
+
+	.lidecontacts{
+		padding-bottom: 0.5em;
+	}
+	
+	.ultimoboton{
+		width: 2.5%;
+		height: 2.8em;
+		padding-right: 2em;
+	}
+
+	#ultimoicono{
+		font-size: 14px;
+		width: 1em;
+		padding-top: 0.65em;
+	}
+	
+	#hijodellink{
+		padding-bottom: 2em;
+    	padding-left: 1.5em;
+	}
+
+	.lidellink{
+    	width: 49%;
+	}
+
+	/*------------------------------------------------------------------------------------------------------*/
+
+	#sectiongeneral{
+		padding-bottom: 5em;
+    	align-items: center;
+    	display: flex;
+    	margin-top: 12vh;
+    	flex-direction: column-reverse;
+	}
+
+	#div2{
+		width: 100%;
+		position: inherit;
+		height: 90vh;
+	}
+	
+	#div1{
+		position: relative;
+		width: 88%;
+		text-align: justify;
+		padding: 0;
+		margin: 0;
+	}
+
+	.articulosdeabout{
+	text-align: inherit;
+    padding-top: 3em;
+	padding-left: 0;
+	padding-right: 0;
+	} 
+
+	#imagendelvideo{
+		width: 6em;
+    	height: 4em;
+	}
+
+	#comentariosdelvideo{
+		padding-top: 0.4em;
+    	padding-left: 7em;
+    	border-bottom: 2px solid #ddd;
+    	padding-bottom: 3.5em;
+    	text-align: left;
+	}
+
+	#divarticulo{
+		width: 13em;
+    	top: 49%;
+    	left: 47.5%;
+	}
+
+	#youtube{
+		height: 8em !important;
+	}
+
+	.cerrar{
+		width: 100%;
+		top: 8em !important;
+		right: -15em !important;
+		font-size: 1em !important;
+	}
+
+	#h1devideo{
+		font-size: 15px;
+    	line-height: 20px;
+	}
+
+	#h2devideo{
+    	color: #777;
+    	font-size: 13px;
+    	line-height: 20px;
+	}
+
+	#h3devideo{
+		font-size: 13px;
+    	line-height: 20px;
+    	font-weight: 700;
+	}
+
+	.titulos{
+		font-size: 36px;
+		text-align: left;
+	}
+
+	#divboton{
+		text-align: center;
+	}
+
+	.articulosdeabout2{
+		text-align: inherit;
+    	padding-top: 3em;
+    	padding-left: 0;
+    	padding-right: 0;
+    	padding-bottom: 2em;
+	}
+
+	#footer2{
+		margin: 0 !important;
+		padding-left: 1em !important;
+		width: 96% !important;
+	}
+
+	.articulosdelfooter{
+		flex-wrap: wrap;
+	}
+
+	#about{
+		text-align: inherit;
+		padding: 0;
+		padding-right: 4.5em;
+		width: 100%;
+	}
+
+	#firma{
+		width: 55%;
+		padding-bottom: 2em;
+	}
+
+	#contacts{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 2em;
+	}
+
+	#follow{
+		width: 100%;
+	}
+
+	#ulcontacts{
+		font-size: 20px;
+	}
+
+	.iconosderedes2{
+		padding-left: 0.45em;
+    	padding-right: 0.45em;
+    	padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		font-size: 20px;
+	}
+
+	.iconosderedes3{
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		padding-left: 0.6em;
+		padding-right: 0.6em;
+		font-size: 20px;
+	}
+
+	.lidecontacts{
+		padding-bottom: 0.5em;
+	}
+	}

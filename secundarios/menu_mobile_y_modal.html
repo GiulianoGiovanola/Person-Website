@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body{
+			font-size: 14px;
+			font-family: sans-serif;
+		}
+
+		header{
+			background: #555;
+			color: #fff;
+			display: flex;
+			justify-content: space-between;
+			padding: 1em
+		}
+
+		header nav{
+			position: relative;
+		}
+
+		header nav li{
+			display: inline-block;
+		}
+
+		header nav a{
+			color: #fff;
+			text-decoration: none;
+			display: block;
+			padding: 0.5em
+		}
+
+		#btn_menu{
+			display: none
+		}
+
+		main{
+			min-height: 50em
+		}
+
+		#modal{
+			background: rgba(0,0,0,0.7);
+			position: fixed;
+			z-index: 9999;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: none
+		}
+
+		#modal.abrir{
+			display: block;
+		}
+
+		#modal article{
+			width: 40em;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			background: #fff;
+			text-align: center;
+			box-shadow: 0 0 4em #000;
+		}
+
+
+		#modal article img{
+			width: 100%;
+			height: 20em;
+			object-fit: cover
+		}
+
+		#modal .cerrar{
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: 1em;
+			cursor: pointer
+		}
+
+		@media (max-width: 1000px) {
+			header nav ul{
+				display: none
+			}
+
+			#btn_menu{
+				display: block;
+				padding: 1em;
+				cursor: pointer
+			}
+
+			#menu.abrir{
+				background: #555;
+				display: block;
+				position: absolute;
+				right: 0;
+				top: 4em
+			}
+
+			#menu.abrir li{
+				display: block;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+		<h1><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" width="100"></h1>
+
+		<nav>
+			<a id="btn_menu">MENU</a>
+			<ul id="menu" class="">
+				<li><a href="#">INICIO</a></li>
+				<li><a href="#">SERVICIOS</a></li>
+				<li><a href="#">PRODUCTOS</a></li>
+				<li><a href="#">SARASA</a></li>
+				<li><a href="#">CONTACTO</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<p><button onclick="abrirModal()">Abrir modal</button></p>
+
+
+		<section id="modal">
+			<article>
+				<h1 id="modalTitulo">Titulo del modal</h1>
+				<img id="modalImg" src="assets/imagenes/bla.jpg" alt="Imagen modal">
+				<p id="modalTexto">Este es el texto del modal</p>
+				<a class="cerrar" onclick="cerrarModal()">X</a>
+			</article>
+		</section>
+
+	</main>
+
+	<footer>
+		
+	</footer>
+
+	<script>
+		document.getElementById("btn_menu").onclick = function(){
+			if(document.getElementById("menu").getAttribute("class")==""){
+				document.getElementById("menu").setAttribute("class","abrir");
+			}
+			else{
+				document.getElementById("menu").setAttribute("class","");
+			}
+		}
+
+		function abrirModal(){
+			document.getElementById("modalTitulo").innerHTML = "Hola"; // Ejemplo de como modificaria la info del modal
+
+			document.getElementById("modal").setAttribute("class","abrir");
+		}
+
+		function cerrarModal(){
+			document.getElementById("modal").setAttribute("class","");
+		}		
+
+	</script>
+</body>
+</html>

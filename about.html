@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Persona - Webflow HTML website</title>
+    <link rel="shortcut icon" href="assets/imagenes/logoa_persona.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ccsgeneral.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+    <!-- Comienza el header -->
+    <header id="header">
+        <div id="divheader">
+            <!-- 1er fila -->
+            <div>
+                <a href="index.html"><img src="assets/imagenes/logo_persona.png" width="" height="" alt="logo-persona"></img></a>
+            </div>
+            <!-- 2da fila -->
+            <nav id="intro2">
+                <ul>
+                    <li><a href="index.html">Intro</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- 3ra fila -->
+            <button type="button" class="btn-btn-dark" onclick="cambiarModo()"><img src="assets/iconos/luna.png"></button>
+            <nav id="redessociales">
+                <ul>
+                    <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="behance.net"><i class="fab fa-behance"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="divheader2">
+            <!-- 1er fila -->
+            <div>
+                <a href="index.html"><img src="assets/imagenes/logo_persona.png" width="" height="" alt="logo-persona"></img></a>
+            </div>
+            <!-- 2da fila -->
+            <button type="button" class="btn-btn-dark" onclick="cambiarModo()"><img src="assets/iconos/luna.png"></button>
+            <nav id="intro3">
+                <input type="checkbox" id="menu">
+                <label for="menu"><img src="assets/iconos/menu_black.png"></label>
+                <ul>
+                    <li><a href="index.html">Intro</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Termina el header -->
+
+    <!-- Comienza el main -->
+    <main>
+    <section id="sectiongeneral">
+        <div id="div1">
+    <!-- Mi historia -->
+            <article>
+                <h1>My story</h1>
+                <h3>A</h3>
+                <p>
+                    mazing Webflow template for creatives. A successful marketing plan relies heavily on the pulling-power of 
+                    advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince 
+                    consumers to take action. There is no magic formula to write perfect ad copy; it is based on a number of 
+                    factors, including ad placement, demographic, even the consumer’s mood when they see your ad. 
+                </p>
+            </article>
+
+    <!-- Plantilla de flujo web -->
+            <article>
+                <h1>THE MOST PERSONAL WEBFLOW TEMPLATE FOR CREATIVES</h1>
+                <p id="textodeplantilla">
+                    So how is any writer supposed to pen a stunning piece of advertising copy — copy that sizzles and sells? 
+                    The following tips will jumpstart your creative thinking and help you write a better ad. Consumers are inundated
+                    with ads, so it’s vital that your ad catches the eye and immediately grabs interest. 
+                </p>
+            </article>
+
+    <!-- Video -->
+            <article>
+                <img onclick="abrirModal()" id="imagendelvideo" src="assets/imagenes/partedeunacamara.jpg">
+                <div id="modal">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lnYZXAIWU8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <a onclick="cerrarModal()"><img src="assets/iconos/cruz.svg"></a>    
+                </div>
+                <div id="comentariosdelvideo" onclick="abrirModal()">
+                    <div>
+                        <img id="play" src="assets/iconos/play-icon.svg">
+                    </div>
+                    <h1 id="h1video">HOW I WORK</h1>
+                    <h2>Learn more about my creative process</h2>
+                    <h3>2:24</h3>
+                </div>
+            </article>
+            
+    <!-- Texto -->      
+            <article>
+                <p>
+                    You could do this with a headline or slogan (such as VW’s “Drivers Wanted” campaign), color or layout 
+                    (Target’s new colorful, simple ads are a testimony to this) or illustration (such as the Red Bull characters 
+                    or Zoloft’s depressed ball and his ladybug friend). Promises Credible Benefit: To feel compelled by an ad, the 
+                    consumer must stand to gain something; the product is often not enough. 
+                </p>
+            </article>
+
+    <!-- Simple -->
+            <article>
+                <h1>SIMPLE & BEAUTIFUL</h1>
+                <p>
+                    What would the consumer gain by using your product or service? This could be tangible, like a free gift; 
+                    prestige, power or fame. But remember: you must be able to make good on that promise, so don’t offer 
+                    anything unreasonable.
+
+                    Grabbing the consumer’s attention isn’t enough; you have to keep that attention for at least a few seconds.
+                    This is where your benefits come into play or a product description that sets your offer apart from the others.
+                    How you write your advertising copy will be based on where you will place your ad. If it’s a billboard ad, 
+                    you’ll need a super catchy headline and simple design due to the speed at which people will pass. 
+                </p>
+            </article>
+
+    <!-- Responsable -->
+            <article>
+                <h1>100% RESPONSIVE</h1>
+                <p>
+                    Online ads are similar; consumers are so inundated with Internet advertising that your ad must be quick and 
+                    catchy. Magazine advertising is the most versatile, but this is solely dependent on the size of your ad and 
+                    how many other ads compete with yours. If you have a full page ad, feel free to experiment; more page space 
+                    gives you more creative space. If the ad is tiny, you’ll need to keep things as simple as possible.
+                </p>
+            </article>
+            <div id="botontexto">
+                <div></div>
+                <a href="contact.html">LET'S WORK TOGETHER</a>
+            </div>
+        </div>
+    <!-- Imagen grande -->
+        <div id="div2">
+        </div>
+    </section>
+    </main>
+    <!-- Termina el main -->
+
+    <!-- Comienza el footer -->
+    <footer id="footer2">
+        <!-- 1era fila-->
+        <section class="articulosdelfooter">
+            <div id="about">
+                <h1>ABOUT ME</h1>
+                <p>
+                    I create an amazing Webflow templates for creative people all around the world and help businesses grow.
+                </p>
+                <img src="assets/imagenes/firma.png" width="" height="" alt="firma">
+            </div>
+            <div id="navigation">
+                <h1>NAVIGATION</h1>
+                <ul>
+                    <li><a href="index.html">Intro</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="carrer.html">Carrer</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 2da fila -->
+        <section class="articulosdelfooter">
+            <div id="contacts">
+                <h1>CONTACTS</h1>
+                <ul>
+                    <li><i class="far fa-compass"></i><p class="textosdecontacts">I’m based in New York</p></li>
+                    <li><i class="far fa-envelope"></i><p id="email2">support@elasticthemes.com</p></li>
+                    <li><i class="fas fa-mobile-alt"></i><p class="textosdecontacts2">+1 213 974-3898</p></li>
+                </ul>
+                <div id="divbt01">
+                    <a class="bt01" href="contact.html">Send Message</a>
+                </div>
+            </div>
+            <div id="follow">
+                <h1>FOLLOW</h1>
+                <ul>
+                    <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>
+                    <li class="iconosderedes"><a href="facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="dribbble.com"><i class="fab fa-dribbble"></i></a></li>
+                    <li><a href="behance.net"><i class="fab fa-behance"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 3era fila -->
+        <section id="links2">
+            <p>
+                Carefully crafted by
+                <a href="https://webflow.com/templates/designers/elastic-themes">Elastic Themes</a>
+                / Powered by
+                <a href="https://webflow.com">Webflow</a>
+            </p>
+        </section>
+    </footer>
+    <!-- Termina el footer-->
+    <script src="https://kit.fontawesome.com/31ce5d8270.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/home.js"></script>
+</body>
+</html>
