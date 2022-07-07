@@ -10,7 +10,7 @@
 
 ## Works
 
-![Works](https://user-images.githubusercontent.com/73294225/177822159-2aab0bd1-a1e1-43c9-be31-6241f219aa10.png)
+![Works](https://user-images.githubusercontent.com/73294225/177826939-e5e95bcb-3c9e-40ac-8a71-2547c01c24f1.png)
 
 ## Blog
 
